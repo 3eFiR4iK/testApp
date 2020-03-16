@@ -18,8 +18,11 @@ class Products extends Migration
             $table->string('name');
             $table->text('description');
             $table->text('image')->nullable();
+            $table->integer('category_id')->unsigned();
 
             $table->timestamps();
+
+            $table->foreign('category_id')->references('id')->on('categories');
         });
     }
 
@@ -30,6 +33,6 @@ class Products extends Migration
      */
     public function down()
     {
-        Schema::drop('products');
+        Schema::dropIfExists('products');
     }
 }

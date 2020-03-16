@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        'Baum\Providers\BaumServiceProvider',
 
         /*
          * Application Service Providers...
