@@ -4,63 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1d315469a7402b64fe4ea79d586d9ceb",
+    "content-hash": "5aa6282ffb725e0dc068cfa09f6bdca7",
     "packages": [
-        {
-            "name": "baum/baum",
-            "version": "1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/etrepat/baum.git",
-                "reference": "9290bed862d329aaaef666a71e0a2734afc28286"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/etrepat/baum/zipball/9290bed862d329aaaef666a71e0a2734afc28286",
-                "reference": "9290bed862d329aaaef666a71e0a2734afc28286",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/console": "5.*",
-                "illuminate/database": "5.*",
-                "illuminate/events": "5.*",
-                "illuminate/filesystem": "5.*",
-                "illuminate/support": "5.*",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "d11wtq/boris": "~1.0.10",
-                "mockery/mockery": "~0.9",
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Baum": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Estanislau Trepat",
-                    "email": "estanis@etrepat.com",
-                    "homepage": "http://etrepat.com"
-                }
-            ],
-            "description": "Baum is an implementation of the Nested Set pattern for Eloquent models.",
-            "keywords": [
-                "Laravel 4",
-                "database",
-                "eloquent",
-                "laravel",
-                "laravel 5",
-                "nested set"
-            ],
-            "time": "2015-03-04T12:07:54+00:00"
-        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "v0.1.1",
@@ -434,6 +379,61 @@
                 "trusted proxy"
             ],
             "time": "2020-02-22T01:51:47+00:00"
+        },
+        {
+            "name": "gazsp/baum",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gazsp/baum.git",
+                "reference": "717b68bde76e264732f6516b976d94f2030328d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gazsp/baum/zipball/717b68bde76e264732f6516b976d94f2030328d3",
+                "reference": "717b68bde76e264732f6516b976d94f2030328d3",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "5.*",
+                "illuminate/database": "5.*",
+                "illuminate/events": "5.*",
+                "illuminate/filesystem": "5.*",
+                "illuminate/support": "5.*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "d11wtq/boris": "~1.0.10",
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Baum": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Estanislau Trepat",
+                    "email": "estanis@etrepat.com",
+                    "homepage": "http://etrepat.com"
+                }
+            ],
+            "description": "Baum is an implementation of the Nested Set pattern for Eloquent models.",
+            "keywords": [
+                "Laravel 4",
+                "database",
+                "eloquent",
+                "laravel",
+                "laravel 5",
+                "nested set"
+            ],
+            "time": "2015-03-11T10:27:42+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
