@@ -49,4 +49,24 @@ class Category extends Node
     */
     protected $guarded = array('id', 'parent_id', 'lft', 'rgt', 'depth');
 
+
+
+    public function breadcrumps(): string
+    {
+        $breadcrumps = '/';
+        $parentId = $this->parent_id;
+        while ($parentId != null) {
+            $parent = self::find($parentId);
+            $breadcrumps .= $parent->name. '/';
+            $parentId = $parent->parent_id;
+        }
+
+        return $breadcrumps;
+    }
+
+    public function products()
+    {
+       return $this->hasMany(Product::class);
+    }
+
 }
